@@ -1,6 +1,6 @@
 @"
 *.sh text eol=lf
 *.py text eol=lf
-*.c  text eol=lf
+*.c text eol=lf
 Makefile text eol=lf
-"@ | Out-File -FilePath .gitattributes -Encoding utf8
+"@ | Out-File -FilePath .gitattributes -Encoding utf8 -NoNewline
