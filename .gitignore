@@ -1,0 +1,9 @@
+@"
+diamorphine/*.ko
+diamorphine/*.o
+diamorphine/*.mod
+diamorphine/*.mod.c
+diamorphine/*.cmd
+diamorphine/modules.order
+diamorphine/Module.symvers
+"@ | Out-File -FilePath .gitignore -Encoding utf8
