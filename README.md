@@ -14,8 +14,8 @@ Diamorphine hooks `getdents64` to hide itself from `/proc/modules`. `lsmod`, Ela
 `/sys/module/` is managed by a separate kernel subsystem that Diamorphine never touches. The module directory stays there.
 
 ```
-/proc/modules  ← hooked    →  124 modules (diamorphine absent)
-/sys/module/   ← untouched →  125 entries (diamorphine present)
+/proc/modules  ← hooked    →  114 modules (diamorphine absent)
+/sys/module/   ← untouched →  115 entries (diamorphine present)
 delta = 1  →  hidden module found
 ```
 
